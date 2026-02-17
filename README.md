@@ -69,8 +69,11 @@ The structured datasets support direct reproducibility of the quantitative resul
 
 This data repository is designed to be used alongside:
 
--   The Bayesian Optimal Allocation Calculator repository
--   The Sweep Width Calibration Module repository
+- **Bayesian Optimal Allocation Calculator**  
+  https://github.com/SurveyPlanningAllocCostingAndEval/optimal_allocation
+
+- **Sweep Width Calibration Module**  
+  https://github.com/SurveyPlanningAllocCostingAndEval/sweep_width
 
 Together, these repositories provide a complete, reproducible implementation of the framework presented in the manuscript.
 

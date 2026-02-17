@@ -16,11 +16,11 @@ The following files are direct exports from the Wadi Quṣaybah project FileMake
 
 These files:
 
--   Preserve the original project database structure\
--   May contain abbreviated, unlabelled, or database-specific column fields\
+-   Preserve the original project database structure
+-   May contain abbreviated, unlabelled, or database-specific column fields
 -   Are not formatted for direct analytical use
 
-They are provided for transparency and archival completeness.\
+They are provided for transparency and archival completeness.
 They represent the primary field data from which structured analytical datasets were derived.
 
 ## B. Structured Analytical Datasets
@@ -34,8 +34,8 @@ The following datasets were formatted specifically for analytical reproducibilit
 
 These files are:
 
--   Cleaned and structured\
--   Explicitly formatted for use in the Bayesian Optimal Allocation Calculator\
+-   Cleaned and structured
+-   Explicitly formatted for use in the Bayesian Optimal Allocation Calculator
 -   Directly linked to the worked examples in the manuscript
 
 These datasets are required to reproduce:
@@ -51,16 +51,16 @@ Researchers seeking to reproduce the analytical results of the manuscript should
 
 The analytical workflow described in the JAS manuscript proceeds as follows:
 
-1.  Structured allocation inputs\
+1.  Structured allocation inputs
     → `inputs_sample.csv`
 
-2.  Field survey results\
+2.  Field survey results
     → `field_results_sample.csv`
 
-3.  Coverage calculation and Bayesian posterior updating\
+3.  Coverage calculation and Bayesian posterior updating
     → implemented in the allocation module
 
-4.  Confirmed archaeological discoveries\
+4.  Confirmed archaeological discoveries
     → documented in `wadi_qusaybah_site_records.csv`
 
 The structured datasets support direct reproducibility of the quantitative results presented in the manuscript.
@@ -69,7 +69,7 @@ The structured datasets support direct reproducibility of the quantitative resul
 
 This data repository is designed to be used alongside:
 
--   The Bayesian Optimal Allocation Calculator repository\
+-   The Bayesian Optimal Allocation Calculator repository
 -   The Sweep Width Calibration Module repository
 
 Together, these repositories provide a complete, reproducible implementation of the framework presented in the manuscript.
